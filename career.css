@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.max {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.banner{
+    display: flex;
+    height: 50vh;
+    min-height: 500px;
+    background: url("imgs/JobPortal.jpeg");
+    background-size: cover;
+    background-position-y: 50%;
+    color: black;
+    align-items: center;
+}
+.banner .text{
+    margin-left: 200px;
+    text-align: center;
+}
+.banner .text h1{
+    margin-bottom: 10px;
+    font-size: 90px;
+}
+.banner .text p{
+    font-size: 24px;
+}
+.content{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+}
+.content .box{
+    height: 372px;
+    width: 420px;
+    border: 0px solid black;
+    border-radius: 21px;
+    margin-left: 27px;
+    margin-bottom: 27px;
+    padding: 18px;
+    box-shadow: 4px 6px 15px black;   
+}
+.content .box h2,h3{
+    text-align: center;
+}
+.content .box h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #588ee7;
+}
+.content .box h3{
+    padding-bottom: 21px;
+    font-size: 24px;
+    color:#e597d4;
+}
+.content .box p{
+    font-size: 15px;
+    margin-left:12px;
+    margin-right: 12px;
+}
+.content .box p .head{
+    font-weight: 600;
+    color: rgb(88,142,231);
+}
+.content .box .apply_now{
+    margin-left:12px;
+    margin-bottom:20px;
+    width:100px;
+    height:30px;
+    padding:6px;
+    padding-bottom: 27px;
+    background-color: rgb(229, 151, 212);
+    color: white;
+    border-radius: 6px;
+    border:0px solid black;
+    font-weight: 400;
+}
+.content .box .apply_now:hover{
+    background-color: rgb(88,142,231);
+}
